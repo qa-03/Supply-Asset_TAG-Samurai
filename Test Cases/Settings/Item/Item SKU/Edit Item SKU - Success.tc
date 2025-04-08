@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Item SKU - Success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>38b9089c-6f58-4330-aa0b-8a6a8c1cbd0d</testCaseGuid>
+</TestCaseEntity>

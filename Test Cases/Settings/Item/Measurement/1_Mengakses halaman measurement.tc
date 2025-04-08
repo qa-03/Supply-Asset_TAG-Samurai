@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1_Mengakses halaman measurement</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d5de385d-50f8-43c4-8c0e-05877ec4d99f</testCaseGuid>
+</TestCaseEntity>

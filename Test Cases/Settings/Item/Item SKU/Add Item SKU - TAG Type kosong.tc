@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Item SKU - TAG Type kosong</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e6a0218e-6833-444d-bca8-2d63cf83d9a1</testCaseGuid>
+</TestCaseEntity>

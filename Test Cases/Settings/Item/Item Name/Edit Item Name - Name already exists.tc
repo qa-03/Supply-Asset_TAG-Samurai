@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Item Name - Name already exists</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2c01ce99-8aeb-4cba-950f-de35bf1f8dba</testCaseGuid>
+</TestCaseEntity>

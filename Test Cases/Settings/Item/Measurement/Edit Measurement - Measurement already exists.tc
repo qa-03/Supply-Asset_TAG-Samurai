@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Measurement - Measurement already exists</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>92cfb518-c330-43e5-b017-2dd0f9eecdd9</testCaseGuid>
+</TestCaseEntity>

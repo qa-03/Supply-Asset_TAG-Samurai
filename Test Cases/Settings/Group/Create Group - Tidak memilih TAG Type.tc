@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Group - Tidak memilih TAG Type</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>159923f0-e853-4109-8601-adba64e4cc47</testCaseGuid>
+</TestCaseEntity>

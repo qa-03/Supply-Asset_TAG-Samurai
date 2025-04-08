@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Brand - Tidak mengisi ModelType</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e86133d7-019c-4e76-8400-a459da2b25a0</testCaseGuid>
+</TestCaseEntity>

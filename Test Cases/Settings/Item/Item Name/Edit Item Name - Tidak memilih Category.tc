@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Item Name - Tidak memilih Category</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5b1e83a1-47e4-43d9-8ac6-0c8b2d423bb8</testCaseGuid>
+</TestCaseEntity>

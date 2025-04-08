@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Sub Group - Alias Code already exists</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>335f932d-1b2f-44d8-84d4-6f4ca434c5a7</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Item Name - Tidak memilih Measurement</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b579d852-6bb6-4f22-af27-61869da66ef4</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>4_Create Measurement - Measurement already exists</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>66e38597-ee38-4e46-9871-460282fe0412</testCaseGuid>
+</TestCaseEntity>

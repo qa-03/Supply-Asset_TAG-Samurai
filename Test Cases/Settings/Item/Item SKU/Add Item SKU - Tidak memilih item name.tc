@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Add Item SKU - Tidak memilih item name</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8502b1d5-e7af-466c-a669-f47934aa2095</testCaseGuid>
+</TestCaseEntity>

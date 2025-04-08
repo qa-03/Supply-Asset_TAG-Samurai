@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>5_Create Measurement - Measurement lebih dari 30 characters</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b29190c2-5360-444d-bb5b-9cfbc6f1cdd1</testCaseGuid>
+</TestCaseEntity>

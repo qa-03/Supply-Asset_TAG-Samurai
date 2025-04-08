@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Group - Photo file size too big</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2316b30a-89c8-46d2-89aa-249ae20d85cd</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Move Group - No Subgroup - Success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>76c4f3b8-85ce-4336-b7fa-835ce2076322</testCaseGuid>
+</TestCaseEntity>

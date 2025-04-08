@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Mengakses halaman Item SKU</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>237e266d-ff2b-473e-ad4b-562c7ac26fa1</testCaseGuid>
+</TestCaseEntity>

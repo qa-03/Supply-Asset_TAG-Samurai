@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>7_Edit Measurement - Success</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7bc2626c-e657-4b4e-b63f-ca33cd73877d</testCaseGuid>
+</TestCaseEntity>
