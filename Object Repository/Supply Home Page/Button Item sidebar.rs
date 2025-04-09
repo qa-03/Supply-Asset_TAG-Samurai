@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button Setting sidebar</name>
+   <name>Button Item sidebar</name>
    <tag></tag>
-   <elementGuidId>f303345a-631b-4ce0-9254-dfd0aa6cde54</elementGuidId>
+   <elementGuidId>f97da47a-1592-42ed-bb91-2a670078a68e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>span[data-menu-label=&quot;Settings&quot;]</value>
+         <value>span[data-navigate-to=&quot;/item&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
