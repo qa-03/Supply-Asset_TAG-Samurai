@@ -19,29 +19,29 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Settings/Item/Brand/Mengakses halaman brand'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Supply-Item-Brand/Button Add Brand'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Button Add Brand'))
 
 WebUI.delay(3)
 
 WebUI.verifyTextPresent('Create Brand', false)
 
-WebUI.setText(findTestObject('Supply-Item-Brand/Input field Enter Brand Name'), 'TesBrand')
+WebUI.setText(findTestObject('Supply-Settings-Item-Brand/Input field Enter Brand Name'), 'TesBrand')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Supply-Item-Brand/Button Select Category di Create Brand'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Button Select Category di Create Brand'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Supply-Item-Brand/Select Category Find by Text'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Select Category Find by Text'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Supply-Item-Brand/Button Select di Select Category'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Button Select di Select Category'))
 
-WebUI.setText(findTestObject('Supply-Item-Brand/Field Enter Value ModelType Category'), 'Nyoba nyoba')
+WebUI.setText(findTestObject('Supply-Settings-Item-Brand/Field Enter Value ModelType Category'), 'Nyoba nyoba')
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Supply-Item-Brand/Button Submit di Create Brand'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Button Submit di Create Brand'))
 

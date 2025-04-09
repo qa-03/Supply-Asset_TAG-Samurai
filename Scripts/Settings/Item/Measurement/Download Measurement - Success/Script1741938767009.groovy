@@ -21,5 +21,5 @@ WebUI.callTestCase(findTestCase('Settings/Item/Measurement/1_Mengakses halaman m
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Supply-Item-Measurement/Button Download Measurement'))
+WebUI.click(findTestObject('Supply-Settings-Item-Measurement/Button Download Measurement'))
 

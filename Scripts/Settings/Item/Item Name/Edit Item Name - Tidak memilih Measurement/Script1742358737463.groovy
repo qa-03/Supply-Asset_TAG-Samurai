@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Settings/Item/Item Name/Mengakses halaman item name'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Supply-Item-Item Name/Find by Item Name Action Button'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Find by Item Name Action Button'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Supply-Item-Item Name/Find by Item Name Action Button Edit'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Find by Item Name Action Button Edit'))
 
-WebUI.click(findTestObject('Supply-Item-Item Name/Button Clear Field di Edit Item Name'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Button Clear Field di Edit Item Name'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Supply-Item-Item Name/Button Save Edit Item Name'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Button Save Edit Item Name'))
 
 WebUI.delay(3)
 

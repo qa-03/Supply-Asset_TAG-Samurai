@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Settings/Item/Item Name/Mengakses halaman item name'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Supply-Item-Item Name/Button Add Item Name'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Button Add Item Name'))
 
-WebUI.click(findTestObject('Supply-Item-Item Name/Button Submit Create Item Name'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Button Submit Create Item Name'))
 
 WebUI.delay(3)
 

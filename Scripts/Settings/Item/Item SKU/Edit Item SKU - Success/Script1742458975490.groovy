@@ -21,33 +21,33 @@ WebUI.callTestCase(findTestCase('Settings/Item/Item SKU/Mengakses halaman Item S
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Supply-Item-Item SKU/FInd by SKU Action Button'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item SKU/FInd by SKU Action Button'))
 
-WebUI.click(findTestObject('Supply-Item-Item SKU/Find by SKU Action Button Edit'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item SKU/Find by SKU Action Button Edit'))
 
-WebUI.click(findTestObject('Supply-Item-Item SKU/Select Brand - Edit SKU'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item SKU/Select Brand - Edit SKU'))
 
-WebUI.setText(findTestObject('Supply-Item-Item SKU/Search Field Brand - Select Brand - Edit'), 'Valve')
+WebUI.setText(findTestObject('Supply-Settings-Item-Item SKU/Search Field Brand - Select Brand - Edit'), 'Valve')
 
-WebUI.click(findTestObject('Supply-Item-Item SKU/Search Option - Select Brand - Edit'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item SKU/Search Option - Select Brand - Edit'))
 
-WebUI.click(findTestObject('Supply-Item-Item SKU/Select ModelType - Edit SKU'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item SKU/Select ModelType - Edit SKU'))
 
-WebUI.setText(findTestObject('Supply-Item-Item SKU/Search Field ModelType - Select ModelType - Edit'), 'Test')
+WebUI.setText(findTestObject('Supply-Settings-Item-Item SKU/Search Field ModelType - Select ModelType - Edit'), 'Test')
 
-WebUI.click(findTestObject('Supply-Item-Item SKU/Search Option - Select ModelType - Edit'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item SKU/Search Option - Select ModelType - Edit'))
 
-WebUI.setText(findTestObject('Supply-Item-Item SKU/SKU Field - Edit'), 'VWXYZ')
+WebUI.setText(findTestObject('Supply-Settings-Item-Item SKU/SKU Field - Edit'), 'VWXYZ')
 
-WebUI.setText(findTestObject('Supply-Item-Item SKU/SKU Alias Field - Edit'), 'Alphabet')
+WebUI.setText(findTestObject('Supply-Settings-Item-Item SKU/SKU Alias Field - Edit'), 'Alphabet')
 
-WebUI.setText(findTestObject('Supply-Item-Item SKU/Minimum Stock Field - Edit'), '30')
+WebUI.setText(findTestObject('Supply-Settings-Item-Item SKU/Minimum Stock Field - Edit'), '30')
 
-WebUI.click(findTestObject('Supply-Item-Item SKU/Select TAG Type - Edit SKU'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item SKU/Select TAG Type - Edit SKU'))
 
-WebUI.setText(findTestObject('Supply-Item-Item SKU/Search Field TAG Type - Select TAG Type - Edit'), 'RFID')
+WebUI.setText(findTestObject('Supply-Settings-Item-Item SKU/Search Field TAG Type - Select TAG Type - Edit'), 'RFID')
 
-WebUI.click(findTestObject('Supply-Item-Item SKU/Search Option - Select TAG Type - Edit'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item SKU/Search Option - Select TAG Type - Edit'))
 
-WebUI.click(findTestObject('Supply-Item-Item SKU/Button Save - Edit Item SKU'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item SKU/Button Save - Edit Item SKU'))
 

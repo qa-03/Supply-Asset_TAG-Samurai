@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Settings/Item/Brand/Mengakses halaman brand'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Supply-Item-Brand/Find by Brand Action Button'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Find by Brand Action Button'))
 
-WebUI.click(findTestObject('Supply-Item-Brand/Find by Brand Action Button Edit'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Find by Brand Action Button Edit'))
 
-WebUI.click(findTestObject('Supply-Item-Brand/Button Select Category di Edit Brand'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Button Select Category di Edit Brand'))
 
-WebUI.click(findTestObject('Supply-Item-Brand/Select Category Find by Text All'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Select Category Find by Text All'))
 
-WebUI.click(findTestObject('Supply-Item-Brand/Select Category Find by Text All'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Select Category Find by Text All'))
 
-WebUI.click(findTestObject('Supply-Item-Brand/Button Select di Select Category'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Button Select di Select Category'))
 
 WebUI.delay(3)
 

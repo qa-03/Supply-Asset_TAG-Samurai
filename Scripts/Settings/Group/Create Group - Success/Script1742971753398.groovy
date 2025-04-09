@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Settings/Group/Mengakses halaman Group'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Supply-Group/Button Tambah New Group'))
+WebUI.click(findTestObject('Supply-Settings-Group/Button Tambah New Group'))
 
-WebUI.setText(findTestObject('Supply-Group/Tambah New Group - Field Group Name'), '_AAAZZZ')
+WebUI.setText(findTestObject('Supply-Settings-Group/Tambah New Group - Field Group Name'), '_AAAZZZ')
 
-WebUI.click(findTestObject('Supply-Group/Tambah New Group - Field Group TAG Type'))
+WebUI.click(findTestObject('Supply-Settings-Group/Tambah New Group - Field Group TAG Type'))
 
-WebUI.click(findTestObject('Supply-Group/Tambah New Group - TAG Option'))
+WebUI.click(findTestObject('Supply-Settings-Group/Tambah New Group - TAG Option'))
 
-WebUI.setText(findTestObject('Supply-Group/Tambah New Group - Field Alias Code'), '_AZ')
+WebUI.setText(findTestObject('Supply-Settings-Group/Tambah New Group - Field Alias Code'), '_AZ')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Supply-Group/Tambah New Group - Button Submit'))
+WebUI.click(findTestObject('Supply-Settings-Group/Tambah New Group - Button Submit'))
 

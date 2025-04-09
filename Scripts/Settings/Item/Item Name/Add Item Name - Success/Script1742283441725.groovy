@@ -19,21 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Settings/Item/Item Name/Mengakses halaman item name'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Supply-Item-Item Name/Button Add Item Name'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Button Add Item Name'))
 
-WebUI.setText(findTestObject('Supply-Item-Item Name/Input Enter Name di Create Item Name'), 'Test_Item_Name')
+WebUI.setText(findTestObject('Supply-Settings-Item-Item Name/Input Enter Name di Create Item Name'), 'Test_Item_Name')
 
-WebUI.click(findTestObject('Supply-Item-Item Name/Input Measurement di Create Item Name'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Input Measurement di Create Item Name'))
 
-WebUI.setText(findTestObject('Supply-Item-Item Name/Search di Select Category di Create'), 'Tonne')
+WebUI.setText(findTestObject('Supply-Settings-Item-Item Name/Search di Select Category di Create'), 'Tonne')
 
-WebUI.click(findTestObject('Supply-Item-Item Name/Opsi Measurement di Create'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Opsi Measurement di Create'))
 
-WebUI.click(findTestObject('Supply-Item-Item Name/Input Category di Create Item Name'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Input Category di Create Item Name'))
 
-WebUI.click(findTestObject('Supply-Item-Item Name/Opsi Category di Create'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Opsi Category di Create'))
 
-WebUI.click(findTestObject('Supply-Item-Item Name/Button Select Select Category'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Button Select Select Category'))
 
-WebUI.click(findTestObject('Supply-Item-Item Name/Button Submit Create Item Name'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Button Submit Create Item Name'))
 

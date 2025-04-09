@@ -19,33 +19,33 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Settings/Item/Item Name/Mengakses halaman item name'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Supply-Item-Item Name/Find by Item Name Action Button'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Find by Item Name Action Button'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Supply-Item-Item Name/Find by Item Name Action Button Edit'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Find by Item Name Action Button Edit'))
 
-WebUI.setText(findTestObject('Supply-Item-Item Name/Input Enter Name di Edit Item Name'), 'Test_Item_Name_XYZ')
+WebUI.setText(findTestObject('Supply-Settings-Item-Item Name/Input Enter Name di Edit Item Name'), 'Test_Item_Name_XYZ')
 
-WebUI.click(findTestObject('Supply-Item-Item Name/Input Measurement di Create Item Name'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Input Measurement di Create Item Name'))
 
-WebUI.setText(findTestObject('Supply-Item-Item Name/Search di Select Category di Create'), 'Ton')
+WebUI.setText(findTestObject('Supply-Settings-Item-Item Name/Search di Select Category di Create'), 'Ton')
 
-WebUI.click(findTestObject('Supply-Item-Item Name/Opsi Measurement di Edit'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Opsi Measurement di Edit'))
 
-WebUI.click(findTestObject('Supply-Item-Item Name/Icon Pensil di Edit'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Icon Pensil di Edit'))
 
-WebUI.setText(findTestObject('Supply-Item-Item Name/Search di Select Category di Create'), 'Kapan')
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Supply-Item-Item Name/Opsi Category di Edit'))
+WebUI.setText(findTestObject('Supply-Settings-Item-Item Name/Search di Select Category di Create'), 'Kapan')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Supply-Item-Item Name/Button Select Select Category'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Opsi Category di Edit'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Supply-Item-Item Name/Button Save Edit Item Name'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Button Select Select Category'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Button Save Edit Item Name'))
 

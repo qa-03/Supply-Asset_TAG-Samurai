@@ -21,17 +21,17 @@ WebUI.callTestCase(findTestCase('Settings/Group/Mengakses halaman Group'), [:], 
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Supply-Group/Sidebar - All'))
+WebUI.click(findTestObject('Supply-Settings-Group/Sidebar - All'))
 
-WebUI.click(findTestObject('Supply-Group/Sidebar - All'))
+WebUI.click(findTestObject('Supply-Settings-Group/Sidebar - All'))
 
-WebUI.click(findTestObject('Supply-Group/Button Action 1 - _AAAZZZ'))
+WebUI.click(findTestObject('Supply-Settings-Group/Button Action 1 - _AAAZZZ'))
 
-WebUI.click(findTestObject('Supply-Group/Button Action - Create Sub Group'))
+WebUI.click(findTestObject('Supply-Settings-Group/Button Action - Create Sub Group'))
 
-WebUI.setText(findTestObject('Supply-Group/Tambah New Group - Field Group Name'), '_AAACCC_AAACCC_AAACCC_AAACCC_AAACCC')
+WebUI.setText(findTestObject('Supply-Settings-Group/Tambah New Group - Field Group Name'), '_AAACCC_AAACCC_AAACCC_AAACCC_AAACCC')
 
-WebUI.click(findTestObject('Supply-Group/Tambah New Group - Button Submit'))
+WebUI.click(findTestObject('Supply-Settings-Group/Tambah New Group - Button Submit'))
 
 WebUI.delay(3)
 

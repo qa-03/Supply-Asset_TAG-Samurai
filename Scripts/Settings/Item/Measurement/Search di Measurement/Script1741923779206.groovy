@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Settings/Item/Measurement/1_Mengakses halaman measurement'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Supply-Item-Measurement/Icon Search di Measurement'))
+WebUI.click(findTestObject('Supply-Settings-Item-Measurement/Icon Search di Measurement'))
 
-WebUI.setText(findTestObject('Supply-Item-Measurement/Search Field di Measurement'), 'Tonne')
+WebUI.setText(findTestObject('Supply-Settings-Item-Measurement/Search Field di Measurement'), 'Tonne')
 
-WebUI.sendKeys(findTestObject('Supply-Item-Measurement/Search Field di Measurement'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Supply-Settings-Item-Measurement/Search Field di Measurement'), Keys.chord(Keys.ENTER))
 

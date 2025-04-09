@@ -19,35 +19,35 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Settings/Item/Brand/Mengakses halaman brand'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Supply-Item-Brand/Find by Brand Action Button'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Find by Brand Action Button'))
 
-WebUI.click(findTestObject('Supply-Item-Brand/Find by Brand Action Button Edit'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Find by Brand Action Button Edit'))
 
-WebUI.setText(findTestObject('Supply-Item-Brand/Input field Enter Brand Name'), 'ABCDEFG')
+WebUI.setText(findTestObject('Supply-Settings-Item-Brand/Input field Enter Brand Name'), 'ABCDEFG')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Supply-Item-Brand/Button Select Category di Edit Brand'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Button Select Category di Edit Brand'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Supply-Item-Brand/Select Category Find by Text All'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Select Category Find by Text All'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Supply-Item-Brand/Select Category Find by Text All'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Select Category Find by Text All'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Supply-Item-Brand/Select Category Find by Text Electronics'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Select Category Find by Text Electronics'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Supply-Item-Brand/Button Select di Select Category'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Button Select di Select Category'))
 
-WebUI.clearText(findTestObject('Supply-Item-Brand/Field Enter Value ModelType Category'))
+WebUI.clearText(findTestObject('Supply-Settings-Item-Brand/Field Enter Value ModelType Category'))
 
-WebUI.setText(findTestObject('Supply-Item-Brand/Field Enter Value ModelType Category'), 'Barang Mahal')
+WebUI.setText(findTestObject('Supply-Settings-Item-Brand/Field Enter Value ModelType Category'), 'Barang Mahal')
 
-WebUI.click(findTestObject('Supply-Item-Brand/Button Save di Edit Brand'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Button Save di Edit Brand'))
 

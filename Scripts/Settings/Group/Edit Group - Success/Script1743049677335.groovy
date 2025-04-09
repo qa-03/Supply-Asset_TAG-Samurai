@@ -21,19 +21,19 @@ WebUI.callTestCase(findTestCase('Settings/Group/Mengakses halaman Group'), [:], 
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Supply-Group/Sidebar - All'))
+WebUI.click(findTestObject('Supply-Settings-Group/Sidebar - All'))
 
-WebUI.click(findTestObject('Supply-Group/Sidebar - All'))
+WebUI.click(findTestObject('Supply-Settings-Group/Sidebar - All'))
 
-WebUI.click(findTestObject('Supply-Group/Button Action 3 - _EG_1'))
+WebUI.click(findTestObject('Supply-Settings-Group/Button Action 3 - _EG_1'))
 
-WebUI.click(findTestObject('Supply-Group/Button Action - Edit Group'))
+WebUI.click(findTestObject('Supply-Settings-Group/Button Action - Edit Group'))
 
-WebUI.setText(findTestObject('Supply-Group/Tambah New Group - Field Group Name'), '_EG_5')
+WebUI.setText(findTestObject('Supply-Settings-Group/Tambah New Group - Field Group Name'), '_EG_5')
 
-WebUI.setText(findTestObject('Supply-Group/Tambah New Group - Field Alias Code'), 'EG5')
+WebUI.setText(findTestObject('Supply-Settings-Group/Tambah New Group - Field Alias Code'), 'EG5')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Supply-Group/Tambah New Group - Button Submit'))
+WebUI.click(findTestObject('Supply-Settings-Group/Tambah New Group - Button Submit'))
 

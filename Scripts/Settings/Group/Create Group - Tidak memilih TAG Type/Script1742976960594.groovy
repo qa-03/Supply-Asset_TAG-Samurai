@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Settings/Group/Mengakses halaman Group'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Supply-Group/Button Tambah New Group'))
+WebUI.click(findTestObject('Supply-Settings-Group/Button Tambah New Group'))
 
-WebUI.click(findTestObject('Supply-Group/Tambah New Group - Button Submit'))
+WebUI.click(findTestObject('Supply-Settings-Group/Tambah New Group - Button Submit'))
 
 WebUI.delay(3)
 

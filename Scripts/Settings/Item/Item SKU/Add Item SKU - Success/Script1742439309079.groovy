@@ -19,38 +19,38 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Settings/Item/Item SKU/Mengakses halaman Item SKU'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Supply-Item-Item SKU/Button Add Item SKU'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item SKU/Button Add Item SKU'))
 
-WebUI.click(findTestObject('Supply-Item-Item SKU/Select Item Name - Register Item SKU'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item SKU/Select Item Name - Register Item SKU'))
 
-WebUI.setText(findTestObject('Supply-Item-Item SKU/Search Field Test Item Name - Select Item Name - Register Item SKU'), 
+WebUI.setText(findTestObject('Supply-Settings-Item-Item SKU/Search Field Test Item Name - Select Item Name - Register Item SKU'), 
     'Test_Item_Name')
 
-WebUI.click(findTestObject('Supply-Item-Item SKU/Search Option - Select Item Name - Register'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item SKU/Search Option - Select Item Name - Register'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Supply-Item-Item SKU/Select Brand - Register Item SKU'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item SKU/Select Brand - Register Item SKU'))
 
-WebUI.setText(findTestObject('Supply-Item-Item SKU/Search Field Brand - Select Brand - Register'), 'Y2K')
+WebUI.setText(findTestObject('Supply-Settings-Item-Item SKU/Search Field Brand - Select Brand - Register'), 'Y2K')
 
-WebUI.click(findTestObject('Supply-Item-Item SKU/Search Option - Select Brand - Register'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item SKU/Search Option - Select Brand - Register'))
 
-WebUI.click(findTestObject('Supply-Item-Item SKU/Select ModelType - Register Item SKU'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item SKU/Select ModelType - Register Item SKU'))
 
-WebUI.setText(findTestObject('Supply-Item-Item SKU/Search Field ModelType - Select ModelType - Register'), 'ZXCV')
+WebUI.setText(findTestObject('Supply-Settings-Item-Item SKU/Search Field ModelType - Select ModelType - Register'), 'ZXCV')
 
-WebUI.click(findTestObject('Supply-Item-Item SKU/Search Option - Select ModelType - Register'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item SKU/Search Option - Select ModelType - Register'))
 
-WebUI.setText(findTestObject('Supply-Item-Item SKU/SKU Field - Register'), 'Test_Item_Name_1')
+WebUI.setText(findTestObject('Supply-Settings-Item-Item SKU/SKU Field - Register'), 'Test_Item_Name_1')
 
-WebUI.setText(findTestObject('Supply-Item-Item SKU/Minimum Stock Field - Register'), '50')
+WebUI.setText(findTestObject('Supply-Settings-Item-Item SKU/Minimum Stock Field - Register'), '50')
 
-WebUI.click(findTestObject('Supply-Item-Item SKU/Select TAG Type - Register Item SKU'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item SKU/Select TAG Type - Register Item SKU'))
 
-WebUI.setText(findTestObject('Supply-Item-Item SKU/Search Field TAG Type - Select TAG Type - Register'), 'Non TAG')
+WebUI.setText(findTestObject('Supply-Settings-Item-Item SKU/Search Field TAG Type - Select TAG Type - Register'), 'Non TAG')
 
-WebUI.click(findTestObject('Supply-Item-Item SKU/Search Option - Select TAG Type - Register'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item SKU/Search Option - Select TAG Type - Register'))
 
-WebUI.click(findTestObject('Supply-Item-Item SKU/Button Submit - Add Item SKU'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item SKU/Button Submit - Add Item SKU'))
 

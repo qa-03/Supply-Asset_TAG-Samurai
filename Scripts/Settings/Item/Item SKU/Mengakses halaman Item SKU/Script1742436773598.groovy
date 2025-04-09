@@ -45,7 +45,7 @@ WebUI.click(findTestObject('Supply Home Page/Button Setting sidebar'))
 
 WebUI.click(findTestObject('Supply Home Page/Button Setting sidebar - item'))
 
-WebUI.verifyElementPresent(findTestObject('Supply-Item-Item SKU/TAB Item SKU'), 120)
+WebUI.verifyElementPresent(findTestObject('Supply-Settings-Item-Item SKU/TAB Item SKU'), 120)
 
-WebUI.click(findTestObject('Supply-Item-Item SKU/TAB Item SKU'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item SKU/TAB Item SKU'))
 

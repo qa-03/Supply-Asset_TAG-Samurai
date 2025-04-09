@@ -21,13 +21,13 @@ WebUI.callTestCase(findTestCase('Settings/Group/Mengakses halaman Group'), [:], 
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Supply-Group/Sidebar - All'))
+WebUI.click(findTestObject('Supply-Settings-Group/Sidebar - All'))
 
-WebUI.click(findTestObject('Supply-Group/Sidebar - All'))
+WebUI.click(findTestObject('Supply-Settings-Group/Sidebar - All'))
 
-WebUI.click(findTestObject('Supply-Group/Button Action 4 - _EG_5'))
+WebUI.click(findTestObject('Supply-Settings-Group/Button Action 4 - _EG_5'))
 
-WebUI.click(findTestObject('Supply-Group/Button Action - Delete Group'))
+WebUI.click(findTestObject('Supply-Settings-Group/Button Action - Delete Group'))
 
-WebUI.click(findTestObject('Supply-Group/Delete Group - Button Delete'))
+WebUI.click(findTestObject('Supply-Settings-Group/Delete Group - Button Delete'))
 

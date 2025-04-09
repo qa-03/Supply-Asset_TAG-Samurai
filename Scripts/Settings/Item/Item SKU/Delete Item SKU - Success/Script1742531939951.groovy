@@ -21,9 +21,9 @@ WebUI.callTestCase(findTestCase('Settings/Item/Item SKU/Mengakses halaman Item S
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Supply-Item-Item SKU/FInd by SKU Action Button'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item SKU/FInd by SKU Action Button'))
 
-WebUI.click(findTestObject('Supply-Item-Item SKU/Find by SKU Action Button Delete'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item SKU/Find by SKU Action Button Delete'))
 
-WebUI.click(findTestObject('Supply-Item-Item SKU/Button Delete Item SKU'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item SKU/Button Delete Item SKU'))
 

@@ -19,11 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Settings/Item/Measurement/1_Mengakses halaman measurement'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Supply-Item-Measurement/Button Add Measurement'))
+WebUI.click(findTestObject('Supply-Settings-Item-Measurement/Button Add Measurement'))
 
-WebUI.setText(findTestObject('Supply-Item-Measurement/Input Field Measurement Name'), 'Ton')
+WebUI.setText(findTestObject('Supply-Settings-Item-Measurement/Input Field Measurement Name'), 'Ton')
 
 WebUI.delay(4)
 
-WebUI.click(findTestObject('Supply-Item-Measurement/Button Create Create Measurement'))
+WebUI.click(findTestObject('Supply-Settings-Item-Measurement/Button Create Create Measurement'))
 

@@ -19,15 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Settings/Item/Brand/Mengakses halaman brand'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Supply-Item-Brand/Find by Brand Action Button'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Find by Brand Action Button'))
 
-WebUI.click(findTestObject('Supply-Item-Brand/Find by Brand Action Button Edit'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Find by Brand Action Button Edit'))
 
-WebUI.setText(findTestObject('Supply-Item-Brand/Input field Enter Brand Name'), 'test lagi')
+WebUI.setText(findTestObject('Supply-Settings-Item-Brand/Input field Enter Brand Name'), 'test lagi')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Supply-Item-Brand/Button Save di Edit Brand'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Button Save di Edit Brand'))
 
 WebUI.delay(3)
 

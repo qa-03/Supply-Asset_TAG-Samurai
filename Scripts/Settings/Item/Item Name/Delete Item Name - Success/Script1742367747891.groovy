@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Settings/Item/Item Name/Mengakses halaman item name'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Supply-Item-Item Name/Find by Item Name Action Button'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Find by Item Name Action Button'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Supply-Item-Item Name/Find by Item Name Action Button Delete'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Find by Item Name Action Button Delete'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Supply-Item-Item Name/Button Delete di Delete Item Name'))
+WebUI.click(findTestObject('Supply-Settings-Item-Item Name/Button Delete di Delete Item Name'))
 

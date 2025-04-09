@@ -19,17 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Settings/Item/Measurement/1_Mengakses halaman measurement'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Supply-Item-Measurement/Find by Text'), 10)
+WebUI.scrollToElement(findTestObject('Supply-Settings-Item-Measurement/Find by Text'), 10)
 
-WebUI.click(findTestObject('Supply-Item-Measurement/Find by Text Action Button'))
+WebUI.click(findTestObject('Supply-Settings-Item-Measurement/Find by Text Action Button'))
 
-WebUI.click(findTestObject('Supply-Item-Measurement/Find by Text Action Button Edit'))
+WebUI.click(findTestObject('Supply-Settings-Item-Measurement/Find by Text Action Button Edit'))
 
-WebUI.sendKeys(findTestObject('Supply-Item-Measurement/Input Field Measurement Name'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
+WebUI.sendKeys(findTestObject('Supply-Settings-Item-Measurement/Input Field Measurement Name'), Keys.chord(Keys.CONTROL, 'a', Keys.BACK_SPACE))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Supply-Item-Measurement/Button Save Edit Measurement'))
+WebUI.click(findTestObject('Supply-Settings-Item-Measurement/Button Save Edit Measurement'))
 
 WebUI.verifyTextPresent('Measurement name must not be empty', false)
 

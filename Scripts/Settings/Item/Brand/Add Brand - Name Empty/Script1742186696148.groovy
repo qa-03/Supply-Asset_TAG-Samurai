@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Settings/Item/Brand/Mengakses halaman brand'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Supply-Item-Brand/Button Add Brand'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Button Add Brand'))
 
 WebUI.delay(3)
 
@@ -27,7 +27,7 @@ WebUI.verifyTextPresent('Create Brand', false)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Supply-Item-Brand/Button Submit di Create Brand'))
+WebUI.click(findTestObject('Supply-Settings-Item-Brand/Button Submit di Create Brand'))
 
 WebUI.delay(3)
 

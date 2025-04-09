@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Settings/Item/Measurement/1_Mengakses halaman measurement'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Supply-Item-Measurement/Icon Changelog di Measurement'))
+WebUI.click(findTestObject('Supply-Settings-Item-Measurement/Icon Changelog di Measurement'))
 
 WebUI.delay(5)
 

@@ -21,19 +21,19 @@ WebUI.callTestCase(findTestCase('Settings/Group/Mengakses halaman Group'), [:], 
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Supply-Group/Sidebar - All'))
+WebUI.click(findTestObject('Supply-Settings-Group/Sidebar - All'))
 
-WebUI.click(findTestObject('Supply-Group/Sidebar - All'))
+WebUI.click(findTestObject('Supply-Settings-Group/Sidebar - All'))
 
-WebUI.click(findTestObject('Supply-Group/Button Action 2 - _MG_2'))
+WebUI.click(findTestObject('Supply-Settings-Group/Button Action 2 - _MG_2'))
 
-WebUI.click(findTestObject('Supply-Group/Button Action - Move Group'))
+WebUI.click(findTestObject('Supply-Settings-Group/Button Action - Move Group'))
 
-WebUI.click(findTestObject('Supply-Group/Move Group - Button Select Group'))
+WebUI.click(findTestObject('Supply-Settings-Group/Move Group - Button Select Group'))
 
-WebUI.click(findTestObject('Supply-Group/Move Group - Select Group Option'))
+WebUI.click(findTestObject('Supply-Settings-Group/Move Group - Select Group Option'))
 
-WebUI.click(findTestObject('Supply-Group/Move Group - Button Select Select Group'))
+WebUI.click(findTestObject('Supply-Settings-Group/Move Group - Button Select Select Group'))
 
-WebUI.click(findTestObject('Supply-Group/Move Group - Button Move Move Group'))
+WebUI.click(findTestObject('Supply-Settings-Group/Move Group - Button Move Move Group'))
 

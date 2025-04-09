@@ -19,13 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Settings/Item/Measurement/1_Mengakses halaman measurement'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Supply-Item-Measurement/Find by Text'), 10)
+WebUI.scrollToElement(findTestObject('Supply-Settings-Item-Measurement/Find by Text'), 10)
 
-WebUI.click(findTestObject('Supply-Item-Measurement/Find by Text Action Button'))
+WebUI.click(findTestObject('Supply-Settings-Item-Measurement/Find by Text Action Button'))
 
-WebUI.click(findTestObject('Supply-Item-Measurement/Find by Text Action Button Delete'))
+WebUI.click(findTestObject('Supply-Settings-Item-Measurement/Find by Text Action Button Delete'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Supply-Item-Measurement/Button Continue Delete Measurement'))
+WebUI.click(findTestObject('Supply-Settings-Item-Measurement/Button Continue Delete Measurement'))
 
