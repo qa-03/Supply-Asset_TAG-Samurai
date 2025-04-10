@@ -19,3 +19,5 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Settings/Item/Item Name/Mengakses halaman item name'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Action 1 - ASAS'))
+
