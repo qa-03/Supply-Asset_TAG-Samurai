@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://dev-console.tagsamurai.com/modules')
 
+WebUI.maximizeWindow()
+
 WebUI.verifyElementPresent(findTestObject('Login Page/TAG Samurai logo'), 300)
 
 WebUI.setText(findTestObject('Login Page/Input Email'), 'user-development@mailnesia.com')
