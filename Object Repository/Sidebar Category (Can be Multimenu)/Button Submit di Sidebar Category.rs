@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button Action 1 - ASAS</name>
+   <name>Button Submit di Sidebar Category</name>
    <tag></tag>
-   <elementGuidId>5fdc44b1-dc1b-48de-b09f-5008a6202587</elementGuidId>
+   <elementGuidId>60388f5f-7365-4c09-a1a5-1ae45b13a060</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>CSS</key>
+         <value>button[aria-label=&quot;Submit&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[span[text()='ASAS ']]/button</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

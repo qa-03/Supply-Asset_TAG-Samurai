@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Sub Category - Name already exists</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>be52f735-fd71-4686-88d2-2f36300bfe56</testCaseGuid>
+</TestCaseEntity>

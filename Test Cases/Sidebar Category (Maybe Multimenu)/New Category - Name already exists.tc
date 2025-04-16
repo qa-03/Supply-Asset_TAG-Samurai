@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Category - Name already exists</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>141e9e99-99f7-46cd-b277-86fa7b6730d7</testCaseGuid>
+</TestCaseEntity>

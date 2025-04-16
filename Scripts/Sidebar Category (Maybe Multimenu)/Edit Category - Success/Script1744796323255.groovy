@@ -19,9 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Settings/Item/Item Name/Mengakses halaman item name'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button New Category'))
+WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Action 1 - __ARCANA'))
 
-WebUI.setText(findTestObject('Sidebar Category (Can be Multimenu)/Field Category Name di Sidebar Category'), '__ARCANA')
+WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Action - Edit Group'))
+
+WebUI.setText(findTestObject('Sidebar Category (Can be Multimenu)/Field Category Name di Sidebar Category'), '__ARCANA2')
 
 WebUI.delay(3)
 

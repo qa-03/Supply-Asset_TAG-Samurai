@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Sub Category - Lebih dari 30 karakter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0403be95-9766-48d1-bbb2-72a2afb25389</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create Sub Category - Failed Connection</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d772d5ee-9e2e-47ec-a12c-15fd67a5a724</testCaseGuid>
+</TestCaseEntity>

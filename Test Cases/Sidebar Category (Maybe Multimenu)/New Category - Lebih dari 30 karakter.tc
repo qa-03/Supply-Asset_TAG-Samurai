@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Category - Lebih dari 30 karakter</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>249691fe-b949-4b3b-b9be-e4622fb72814</testCaseGuid>
+</TestCaseEntity>

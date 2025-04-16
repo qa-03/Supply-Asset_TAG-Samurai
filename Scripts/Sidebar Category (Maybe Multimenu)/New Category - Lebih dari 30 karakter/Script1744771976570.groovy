@@ -21,9 +21,13 @@ WebUI.callTestCase(findTestCase('Settings/Item/Item Name/Mengakses halaman item 
 
 WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button New Category'))
 
-WebUI.setText(findTestObject('Sidebar Category (Can be Multimenu)/Field Category Name di Sidebar Category'), '__ARCANA')
+WebUI.setText(findTestObject('Sidebar Category (Can be Multimenu)/Field Category Name di Sidebar Category'), '__ARCANA__ARCANA__ARCANA__ARCANA')
 
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Submit di Sidebar Category'))
+
+WebUI.delay(3)
+
+WebUI.verifyTextPresent('Max. 30 characters', false)
 

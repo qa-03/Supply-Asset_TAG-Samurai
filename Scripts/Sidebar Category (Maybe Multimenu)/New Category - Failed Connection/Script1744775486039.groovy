@@ -21,9 +21,22 @@ WebUI.callTestCase(findTestCase('Settings/Item/Item Name/Mengakses halaman item 
 
 WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button New Category'))
 
-WebUI.setText(findTestObject('Sidebar Category (Can be Multimenu)/Field Category Name di Sidebar Category'), '__ARCANA')
+WebUI.setText(findTestObject('Sidebar Category (Can be Multimenu)/Field Category Name di Sidebar Category'), '__ARCANA2')
 
 WebUI.delay(3)
 
+Runtime.runtime.exec('netsh interface set interface "Ethernet" admin=disable')
+
+Thread.sleep(10000)
+
 WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Submit di Sidebar Category'))
+
+Thread.sleep(2500)
+
+Runtime.runtime.exec('netsh interface set interface "Ethernet" admin=enable')
+
+WebUI.verifyTextPresent('Error, failed to create category. Please check your connection and try again.', false)
+//Error, failed to create category. Please check your connection and try again.
+
+
 

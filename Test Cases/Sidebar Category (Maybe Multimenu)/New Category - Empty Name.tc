@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New Category - Empty Name</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>37c81174-f5f3-4bc7-b14d-09c2ab8f11fb</testCaseGuid>
+</TestCaseEntity>

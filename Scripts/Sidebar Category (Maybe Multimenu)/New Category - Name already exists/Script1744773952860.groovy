@@ -27,3 +27,7 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Submit di Sidebar Category'))
 
+WebUI.delay(3)
+
+WebUI.verifyTextPresent('This name already exists', false)
+
