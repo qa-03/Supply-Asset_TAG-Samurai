@@ -27,5 +27,3 @@ WebUI.setText(findTestObject('Sidebar Category (Can be Multimenu)/Field Category
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Submit di Sidebar Category'))
-
