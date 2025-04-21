@@ -23,29 +23,9 @@ WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Action 1 
 
 WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Action - Edit Group'))
 
-WebUI.setText(findTestObject('Sidebar Category (Can be Multimenu)/Field Category Name di Sidebar Category'), '__ARCANA2')
+WebUI.setText(findTestObject('Sidebar Category (Can be Multimenu)/Field Category Name di Sidebar Category'), '__ARCANA2__ARCANA2__ARCANA2__ARCANA2')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Save di Sidebar Category'))
-
-Thread.sleep(1500)
-
-WebUI.verifyTextPresent('Success, category has been edited.', false)
-
-Thread.sleep(3000)
-
-WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Action 2 - __ARCANA2'))
-
-WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Action - Edit Group'))
-
-WebUI.setText(findTestObject('Sidebar Category (Can be Multimenu)/Field Category Name di Sidebar Category'), '__ARCANA')
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Save di Sidebar Category'))
-
-Thread.sleep(1500)
-
-WebUI.verifyTextPresent('Success, category has been edited.', false)
+WebUI.verifyTextPresent('Max. 30 characters', false)
 

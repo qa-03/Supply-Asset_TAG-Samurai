@@ -43,6 +43,8 @@ WebUI.click(findTestObject('Module Page/img_Supply Asset'))
 
 WebUI.verifyElementPresent(findTestObject('Supply Home Page/img_TAG Samurai logo'), 120)
 
+WebUI.waitForElementClickable(findTestObject('Supply Home Page/Button Setting sidebar'), 20)
+
 WebUI.click(findTestObject('Supply Home Page/Button Setting sidebar'))
 
 WebUI.click(findTestObject('Supply Home Page/Button Setting sidebar - item'))

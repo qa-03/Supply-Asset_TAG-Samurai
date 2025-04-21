@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verifikasi Button Administrative Group Berfungsi</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6ad0c798-4268-4f14-8b1b-d897ac959b30</testCaseGuid>
+</TestCaseEntity>

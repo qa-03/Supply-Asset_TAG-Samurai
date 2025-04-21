@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button Setting sidebar</name>
+   <name>Button Action 4 - __123 Delete Sub</name>
    <tag></tag>
-   <elementGuidId>f303345a-631b-4ce0-9254-dfd0aa6cde54</elementGuidId>
+   <elementGuidId>d3676807-4344-4ac5-b0c4-f87ab1a4d49a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//span[text()=&quot; Settings &quot;]</value>
+         <value>//span[span[text()='__123 ']]/button</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>span[data-menu-label=&quot;Settings&quot;]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

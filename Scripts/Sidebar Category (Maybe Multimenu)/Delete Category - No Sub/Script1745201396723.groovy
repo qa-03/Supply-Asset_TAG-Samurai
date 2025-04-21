@@ -19,33 +19,23 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Settings/Item/Item Name/Mengakses halaman item name'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Action 1 - __ARCANA'))
+WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button New Category'))
 
-WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Action - Edit Group'))
-
-WebUI.setText(findTestObject('Sidebar Category (Can be Multimenu)/Field Category Name di Sidebar Category'), '__ARCANA2')
+WebUI.setText(findTestObject('Sidebar Category (Can be Multimenu)/Field Category Name di Sidebar Category'), '__ARCANA_Dele')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Save di Sidebar Category'))
+WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Submit di Sidebar Category'))
+
+Thread.sleep(15000)
+
+WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Action 3 - __ARCANA_Dele'))
+
+WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Action - Delete Group'))
+
+WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Delete di Sidebar Category'))
 
 Thread.sleep(1500)
 
-WebUI.verifyTextPresent('Success, category has been edited.', false)
-
-Thread.sleep(3000)
-
-WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Action 2 - __ARCANA2'))
-
-WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Action - Edit Group'))
-
-WebUI.setText(findTestObject('Sidebar Category (Can be Multimenu)/Field Category Name di Sidebar Category'), '__ARCANA')
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Save di Sidebar Category'))
-
-Thread.sleep(1500)
-
-WebUI.verifyTextPresent('Success, category has been edited.', false)
+WebUI.verifyTextPresent('Success, category has been deleted.', false)
 

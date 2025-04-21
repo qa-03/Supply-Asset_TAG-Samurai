@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button Setting sidebar</name>
+   <name>Button Action - Delete Group</name>
    <tag></tag>
-   <elementGuidId>f303345a-631b-4ce0-9254-dfd0aa6cde54</elementGuidId>
+   <elementGuidId>b8c52776-0981-4ee1-994b-aa6e8bc33b12</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[text()=&quot; Settings &quot;]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>span[data-menu-label=&quot;Settings&quot;]</value>
+         <value>//span[text()=&quot;Delete Category&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

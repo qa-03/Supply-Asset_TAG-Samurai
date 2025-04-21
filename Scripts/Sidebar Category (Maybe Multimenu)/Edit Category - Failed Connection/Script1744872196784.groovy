@@ -23,29 +23,19 @@ WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Action 1 
 
 WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Action - Edit Group'))
 
-WebUI.setText(findTestObject('Sidebar Category (Can be Multimenu)/Field Category Name di Sidebar Category'), '__ARCANA2')
+WebUI.setText(findTestObject('Sidebar Category (Can be Multimenu)/Field Category Name di Sidebar Category'), '__ARCANA99')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Save di Sidebar Category'))
+Runtime.runtime.exec('netsh interface set interface "Ethernet" admin=disable')
 
-Thread.sleep(1500)
-
-WebUI.verifyTextPresent('Success, category has been edited.', false)
-
-Thread.sleep(3000)
-
-WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Action 2 - __ARCANA2'))
-
-WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Action - Edit Group'))
-
-WebUI.setText(findTestObject('Sidebar Category (Can be Multimenu)/Field Category Name di Sidebar Category'), '__ARCANA')
-
-WebUI.delay(3)
+Thread.sleep(10000)
 
 WebUI.click(findTestObject('Sidebar Category (Can be Multimenu)/Button Save di Sidebar Category'))
 
-Thread.sleep(1500)
+Thread.sleep(2500)
 
-WebUI.verifyTextPresent('Success, category has been edited.', false)
+Runtime.runtime.exec('netsh interface set interface "Ethernet" admin=enable')
+
+WebUI.verifyTextPresent('Error, failed to edit category. Please check your connection and try again.', false)
 

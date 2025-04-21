@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button Setting sidebar</name>
+   <name>Button Action 3 - __ARCANA_Dele</name>
    <tag></tag>
-   <elementGuidId>f303345a-631b-4ce0-9254-dfd0aa6cde54</elementGuidId>
+   <elementGuidId>b3a0d5ac-361d-4b7a-8863-c771a80e5b3b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[text()=&quot; Settings &quot;]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>span[data-menu-label=&quot;Settings&quot;]</value>
+         <value>//span[span[text()='__ARCANA_Dele ']]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
