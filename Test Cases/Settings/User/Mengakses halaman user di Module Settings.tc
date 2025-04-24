@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Mengakses halaman user di Module Settings</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>60877e83-fb5e-45db-a925-eebe57342b91</testCaseGuid>
+</TestCaseEntity>
