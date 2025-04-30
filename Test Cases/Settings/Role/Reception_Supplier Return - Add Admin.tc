@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Reception_Supplier Return - Add Admin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>addd2f8a-bd0b-4fcd-9192-bc52bb15c7af</testCaseGuid>
+</TestCaseEntity>
