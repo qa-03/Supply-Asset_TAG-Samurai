@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Delete Supplier - Success</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>cf8f738d-db31-4400-a2b9-8c42058e18ee</testCaseGuid>
-</TestCaseEntity>
